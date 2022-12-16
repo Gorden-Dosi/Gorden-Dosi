@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Challenging and developing every day on 6 monthes
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Trying to Developer days
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Gorden-Dosi - github](mailto:email@domain.com)
