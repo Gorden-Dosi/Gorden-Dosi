@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript deepdive 스터디.
+title: Javascript deepdive 스터디 Chapter 6.
 ---
 
 모던 자바스크립트 Deep Dive
