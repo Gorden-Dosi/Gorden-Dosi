@@ -88,7 +88,8 @@ bar();
 | 지역  | 함수 몸체 내부 | 지역 스코프 | 지역 변수 | 자신의 지역과 
 하위지역 스코프 |
 
-![IMG_7205D11372AA-1.jpeg](Chapter%2013%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%91%E1%85%B3%20439c546cc27d4341be1307b45d8be1ce/IMG_7205D11372AA-1.jpeg)
+![IMG_7205D11372AA-1](https://user-images.githubusercontent.com/115977201/210121478-71a5abb6-e0b5-4836-9406-b0d4083f46d2.jpeg)
+
 
 ### 3. 스코프 체인 scope chain
 
@@ -105,7 +106,8 @@ bar();
 
 </aside>
 
-![IMG_A05DF097E568-1.jpeg](Chapter%2013%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%91%E1%85%B3%20439c546cc27d4341be1307b45d8be1ce/IMG_A05DF097E568-1.jpeg)
+![IMG_A05DF097E568-1](https://user-images.githubusercontent.com/115977201/210121490-81b4d5db-9863-4dd7-8fac-6f1ebe328cad.jpeg)
+
 
 1) 스코프 체인에 의한 변수 검색
 
