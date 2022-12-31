@@ -1,3 +1,9 @@
+---
+layout: post
+title: Javascript deepdive 스터디 Chapter 13.
+---
+
+
 # Chapter 13. 스코프
 
 ---
