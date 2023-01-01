@@ -150,7 +150,7 @@ console.log 메서드에 의해 실행이 종료되면 함수코드 실행 과�
 이전에 실행하던 코드를 구분하여 관리해야한다.
 
 <aside>
-<img src="https://www.notion.so/icons/playback-pause_gray.svg" alt="https://www.notion.so/icons/playback-pause_gray.svg" width="40px" /> 이처럼 코드가 실행되려면 다음과 같이 스코프, 식별자, 코드 실행 순서 등의 관리가 필요하다.
+ 이처럼 코드가 실행되려면 다음과 같이 스코프, 식별자, 코드 실행 순서 등의 관리가 필요하다.
 
 ① 선언에 의해 생성된 모든 식별자(변수, 함수, 클래스 등)를 스코프를 구분하여 등록하고 
 상태변화( 식별자에 바인딩된 값의 변화)를 지속적으로 관리할 수 있어야 한다.
