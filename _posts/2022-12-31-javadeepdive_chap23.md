@@ -1,3 +1,8 @@
+---
+layout: post
+title: Javascript deepdive 스터디 Chapter 23.
+---
+
 # Chapter 23 실행 컨텍스트
 
 실행 컨텍스트execution context 란
