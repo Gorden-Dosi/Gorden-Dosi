@@ -1,7 +1,12 @@
+---
+layout: post
+title: Javascript deepdive 스터디 Chapter 11.
+---
+
 # Chapter 11 원시값과 객체 비교
 
 <aside>
-<img src="https://www.notion.so/icons/playback-pause_gray.svg" alt="https://www.notion.so/icons/playback-pause_gray.svg" width="40px" /> 자바스크립트가 제공하는 7가지 데이트 타입은 크게 원시타입과 객체 타입으로 구분할 수 있다.
+자바스크립트가 제공하는 7가지 데이트 타입은 크게 원시타입과 객체 타입으로 구분할 수 있다.
 
 원시 타입과 객체 타입은 크게 3가지 측면에서 다르다.
 
@@ -17,9 +22,9 @@
 
 원시 타입의 값. 즉 원시값은 변경 불가능한 값이다. 한번 생성된 원시값은 읽기 전용 값으로서 변경할수 없다.
 
-![IMG_18FD651AAD6F-1.jpeg](Chapter%2011%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B9%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%87%E1%85%B5%E1%84%80%E1%85%AD%20f59c772a34aa44ebb60a78b23788c0fe/IMG_18FD651AAD6F-1.jpeg)
+![IMG_18FD651AAD6F-1](https://user-images.githubusercontent.com/115977201/210241157-6bef9ce4-bba9-420d-bfa4-56e58e99efd6.jpeg)
 
-![IMG_6729EBCDA215-1.jpeg](Chapter%2011%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B9%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%87%E1%85%B5%E1%84%80%E1%85%AD%20f59c772a34aa44ebb60a78b23788c0fe/IMG_6729EBCDA215-1.jpeg)
+![IMG_6729EBCDA215-1](https://user-images.githubusercontent.com/115977201/210241163-08b0c201-9f77-4c8b-98b6-dca0787156ce.jpeg)
 
 변수가 참조하던 메모리 공간 주소가 
 변경된 이유는 원시 값이 
@@ -62,7 +67,8 @@ score 변수와 copy변수에 할당되는
 변수의 값 80은 다른 메모리의 공간에 
 저장된 별개의 값이다.
 
-![IMG_C34F84A90A23-1.jpeg](Chapter%2011%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B9%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%87%E1%85%B5%E1%84%80%E1%85%AD%20f59c772a34aa44ebb60a78b23788c0fe/IMG_C34F84A90A23-1.jpeg)
+![IMG_C34F84A90A23-1](https://user-images.githubusercontent.com/115977201/210241236-3aec2e89-aaec-4f65-9699-b4de657a779c.jpeg)
+
 
 값에 의한 전달이라는 용어는 자바스크립트 용어가 아니므로 오해가 있을 수 있다.
 엄격하게 표현하며 변수에는 값이 전달되는 것이 아니라 메모리 주소가 전달 된다. 
@@ -76,7 +82,8 @@ score 변수와 copy변수에 할당되는
 참조 값reference value에 접근할수 있다. 
 참조값은 생성된 객체가 저장된 메모리 공간의 주소, 그 자체다.
 
-![IMG_B2D91AE448DF-1.jpeg](Chapter%2011%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B9%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%87%E1%85%B5%E1%84%80%E1%85%AD%20f59c772a34aa44ebb60a78b23788c0fe/IMG_B2D91AE448DF-1.jpeg)
+![IMG_B2D91AE448DF-1](https://user-images.githubusercontent.com/115977201/210241284-4e76f865-577d-48fa-a871-233aeb18af24.jpeg)
+
 
 ```jsx
 var person = {
@@ -124,7 +131,8 @@ console.log(c2 === o); // true
 
 참조에의한 전달 → 객체를 가리키는 변수를 다른 변수에 할당하면 원본의 참조 값이 복사되어 전달된다.
 
-![IMG_D36A738E1A79-1.jpeg](Chapter%2011%20%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%B9%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%20%E1%84%87%E1%85%B5%E1%84%80%E1%85%AD%20f59c772a34aa44ebb60a78b23788c0fe/IMG_D36A738E1A79-1.jpeg)
+![IMG_D36A738E1A79-1](https://user-images.githubusercontent.com/115977201/210241316-b3a9b831-dc6b-48b7-b039-c29bb52797df.jpeg)
+
 
 ```jsx
 var person = {
