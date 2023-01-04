@@ -1,3 +1,7 @@
+---
+layout: post
+title:  Day 21 JS Koans
+---
 # Day 21 JS Koans 회고
 
 expert 함수 사용
