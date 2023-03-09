@@ -1,4 +1,9 @@
-# Cookie/Session, Token, OAuth2.0 인증 흐름
+---
+layout: post
+title: Cookie/Session, Token, OAuth2.0
+---
+
+Cookie/Session, Token, OAuth2.0 인증 흐름
 
 ## 쿠키
 
